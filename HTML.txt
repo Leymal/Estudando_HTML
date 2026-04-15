@@ -1,0 +1,47 @@
+HTML
+
+h1 / h2 / h3 / h4
+p      = parágrafo
+strong = bold
+em     = itálico
+br     = break	(pula linha)
+abbr   = abbreviation (quando mouse em cima mostra palavra inteira)
+<!-- Comentário --> = comentário
+
+começa com !DOCTYPE html
+
+head
+
+
+body
+	header
+
+	main
+		section
+		   h2
+		   p
+		  <form> (pega imput)
+			<input>		  	
+		  		<type> (tipo (texto, radio (bolinha), data, checkbox (caixa), file))
+				<id> (indentificador único)
+				<name> (nome)
+
+			<select> (menu suspenso)
+			<img src="arquivo.png" alt="alternativo">
+			<figure>
+				<figcaption> figura 1: descrição da imagem para aparecer no canto direito inferior </figcaption>
+			</figure>
+		<table> (tabela por linha)
+			<tr> (table row (linha))
+				<td> (table data (informação))
+				<thead> (table head (tipo o header))
+		<ul> (cria uma lista não numerada, bolinha)
+			<li> (cada linha da lista)
+		<ol> (cria uma lista numerada, numero)
+			<li> (cada linha da lista)
+		<details> (clica e mostra oq tem dentro)
+			<summary> (título para o details)
+
+
+	footer
+
