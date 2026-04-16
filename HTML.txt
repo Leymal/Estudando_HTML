@@ -7,6 +7,10 @@ em     = itálico
 br     = break	(pula linha)
 abbr   = abbreviation (quando mouse em cima mostra palavra inteira)
 <!-- Comentário --> = comentário
+Para colocar caracter especial usar & + o código
+para colocar hyperlink
+<a> âncora
+<a href="link"> </a>
 
 começa com !DOCTYPE html
 
@@ -41,6 +45,12 @@ body
 			<li> (cada linha da lista)
 		<details> (clica e mostra oq tem dentro)
 			<summary> (título para o details)
+
+		<form> (formulário)
+			<fieldset> (borda todo o formulário)
+				<legend> legenda pra borda
+
+
 
 
 	footer
