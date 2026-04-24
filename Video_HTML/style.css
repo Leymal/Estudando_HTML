@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#F9F2FF ;
+    color:#223631;
+    font-family: lato, sans-serif;
+}
+
+header{
+    padding:2rem;
+    background-color:#D4FFF4;
+    text-align: center;
+}
+
+main{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.45rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h2{
+    font-size: 1.5rem;
+    color:#4A4334;
+}
+
+input[type="radio"], [type="checkbox"]{
+    accent-color: #ff4500;
+}
+
+input[type="text"], [type="email"], [type="password"], [type="date"]{
+    width: 70%;
+    padding: 0.5rem;
+    border: 2px solid #4A4334;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+input::placeholder{
+    color: #A5EDFA;
+}
+
+select{
+	cursor: pointer;	
+	background-color: #6AD4BC;
+	color: #253B36;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+}
+
+img{
+    width: 7rem;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #D66FC8;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+td{
+    background-color: #F9F2FF;
+    color: #223631;
+    padding: 0.5rem;
+    border: 1px solid #D66FC8;
+    text-align: center;
+}
+
+tfoot td{
+    background-color: #F09EB7;
+    color: #fff;
+    font-weight: bold;
+}
+
+details{
+	background-color: #c2f2bb;
+	border-radius: 5px;
+	padding: 0.5rem;
+}
+
+	summary{
+	color: #223631;
+	margin: 0.5rem 0;
+	cursor: pointer;
+}
+
+	ul{
+	margin-left: 1.5rem;
+}
+
+	li{
+	padding: 0.5rem;
+}
+
+	fieldset{
+	border: 2px solid #223631;
+	border-radius: 5px;
+	padding: 1rem;
+}
+
+	fieldset legend{
+	color: rgb(90, 152, 137);
+	padding:0 0.5;
+}
+
+	textarea{
+	background-color: #c2f2bb;
+	outline: none;
+	border-radius: 5px;
+	border: 2px solid #223631;
+}
+
+button{
+	background-color: #6AD4BC;
+	border: 2px solid #223631;
+	padding: 0.5rem;
+	color: #223631;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.paragrafo-footer{
+    text-align: center;
+    color: #223631;
+    font-size: 0.9rem;
+}
+
+footer a {
+    text-decoration: none; 
+    color: #223631;
+}
